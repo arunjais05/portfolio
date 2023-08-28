@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+        header{
+            height: 100vh;
+        }
+        .container{
+            display: flex;
+            /* justify-content:space-between; */
+            align-items: center;
+            box-shadow: 5px 5px 10px black;
+            font-weight: bolder;
+            font-size: 1.2rem;
+            height: 3rem;
+            width: 100%;
+            position: relative;
+        }
+        .sub1{
+            display: flex;
+            left: 3rem;
+            position: absolute;
+            left: 4rem;
+            
+            
+        }
+        ul{
+            display: flex;
+            /* justify-content:space-between;  */
+            cursor: pointer;
+            position: absolute;
+            left: 65rem;
+            bottom: 13px;
+        }
+        ul>li{
+            list-style: none;
+            margin-right: 2rem;
+            text-shadow: 2px 2px 3px rgb(138, 128, 128);
+        }
+        .myimg{
+            height: 20rem;
+            width: 20rem;
+            display: flex;
+            align-items: center;
+            height:calc(100-20);
+            justify-content: center;
+            margin-left: -15rem;
+        }
+        img{
+            height: 20rem;
+            width: 20rem;
+            border-radius: 50%;
+            box-shadow: 5px 5px 5px black;
+            
+        }
+       .container1{
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        top: 10rem;
+        font-size: 2rem;
+        align-items: center;
+       
+        
+       }
+       .about{
+        box-shadow: 5px 5px 20px black;
+        height: 15rem;
+        width: 34rem;
+        border-radius: 20px;
+        text-align: center;
+        padding-top: 5rem;
+       }
+       
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="sub1">
+                <h1>Port<span>folio</span></h1>
+            </div>
+            <div class="sub2">
+                <ul>
+                    <li>About me</li>
+                    <li>Skills</li>
+                    <li>Projects</li>
+                    <li>Experience</li>
+                </ul>
+            </div>
+        </div>
+        <div class="container1">
+            <div class="sub3">
+            <div class="about">
+                <p>Hey! my name is </p>
+                <h1>Arun Jaiswal</h1>
+                <p>And I'm a Web Designer</p>
+            </div>
+        </div>
+            <div class="myimg">
+                <img src="arun.jpg" alt="">
+            </div>
+        </div>
+    </header>
+    <main>
+        
+    </main>
+</body>
+</html>
